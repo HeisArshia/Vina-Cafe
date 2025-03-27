@@ -1,0 +1,76 @@
+/* styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap");
+
+body {
+  background-color: #008a50;
+  font-family: "Vazirmatn", sans-serif;
+  direction: rtl;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.menu-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.menu-logo {
+  width: 120px;
+  height: auto;
+}
+
+.menu-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #e3b97f;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #008a50;
+  margin-bottom: 20px;
+}
+
+.menu-section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #c65a04;
+  border-bottom: 2px solid #c65a04;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.item-name {
+  font-size: 18px;
+  color: #444;
+}
+
+.item-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #603813;
+}
