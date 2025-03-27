@@ -74,3 +74,12 @@ body {
   font-weight: bold;
   color: #603813;
 }
+.detail {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 4px;
+  padding: 4px 6px;
+  background-color: #e3b97f;
+  border-radius: 5px;
+  display: inline-block;
+}
